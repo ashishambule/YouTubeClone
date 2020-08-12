@@ -11,7 +11,7 @@ export default class App extends Component {
         <Switch>
           <Route path='/watch' component={WatchVideo} />
           <Route path='/addNew' component={AddNewVideo} />
-          <Route path='/' component={Home} />
+          <Route path='/' component={WatchVideo} />
         </Switch>
       </AppLayout>
     );

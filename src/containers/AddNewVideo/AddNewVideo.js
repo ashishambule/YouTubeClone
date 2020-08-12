@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './AddNewVideo.scss';
 import { connect } from 'react-redux';
 import { addNewVideo } from '../../Store/Actions/videoAction';
+import { Link } from 'react-router-dom';
+
 class AddNewVideo extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
@@ -57,9 +59,9 @@ class AddNewVideo extends Component {
           />
           <br />
           <br />
-          {/* <Link to='/'> */}
+          {/* <Link to='/watch'> */}
           <button>Submit</button>
-          {/* </Link>  */}
+          {/* </Link> */}
         </form>
       </div>
     );
